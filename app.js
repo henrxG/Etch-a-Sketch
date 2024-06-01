@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             container.appendChild(element);
 
             element.addEventListener('mouseover', function() {
-                this.style.backgroundColor = 'orange';
+                this.style.backgroundColor = 'RGB(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ')';
             });
         }
     });
