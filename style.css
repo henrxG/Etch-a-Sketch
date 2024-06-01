@@ -1,5 +1,5 @@
-.element{
-    background-color: red;
-    width: 100px;
-    height: 100px;
+#container{
+    background-color: black;
+    flex: auto;
+    flex-wrap: wrap;
 }
